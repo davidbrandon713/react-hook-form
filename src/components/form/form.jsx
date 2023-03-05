@@ -40,6 +40,7 @@ const Form = () => {
           type='text' 
           error={errors.name} 
           errorMsg='Name is required.'
+          tabIndex={1}
           register={register}
         />
         <FormElement 
@@ -48,6 +49,7 @@ const Form = () => {
           type='text' 
           error={errors.email} 
           errorMsg='Must use a valid email address.'
+          tabIndex={2}
           register={register}
         />
         <FormElement 
@@ -56,6 +58,7 @@ const Form = () => {
           type='password' 
           error={errors.password} 
           errorMsg='Password must be between 4 and 16 characters.'
+          tabIndex={3}
           register={register}
         />
         <FormElement 
@@ -64,6 +67,7 @@ const Form = () => {
           type='password' 
           error={errors.confirmPassword} 
           errorMsg='Passwords must match.'
+          tabIndex={4}
           register={register}
         />
         <button type='submit' id='btnSubmit'>Submit</button>
