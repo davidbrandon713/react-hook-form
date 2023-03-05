@@ -2,6 +2,7 @@ import React from 'react'
 import { useForm }from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
+import FormElement from '../form-element/form-element'
 
 import './form.css'
 
@@ -32,22 +33,39 @@ const Form = () => {
         <h2 className='form-title'>React Hook Form</h2>
       </div>
       <form className='form-component' onSubmit={handleSubmit(onSubmit)}>
-        <h4>Full name</h4>
-        <p>{ errors.name && 'Required'}</p>
-        <input type='text' name='name' placeholder='your name' {...register('name')} />
 
-        <h4>Email</h4>
-        <p>{ errors.email && 'Must use a valid email address.'}</p>
-        <input type='email' name='email' placeholder='email' {...register('email')} />
-
-        <h4>Password</h4>
-        <p>{ errors.password && 'Password must be between 4 and 16 characters.'}</p>
-        <input type='password' name='password' placeholder='password' {...register('password')} />
-
-        <h4>Confirm password</h4>
-        <p>{ errors.confirmPassword && 'Passwords must match.'}</p>
-        <input type='password' name='confirmPassword' placeholder='password' {...register('confirmPassword')} />
-
+        <FormElement 
+          title='Full name' 
+          name='name' 
+          type='text' 
+          error={errors.name} 
+          errorMsg='Name is required.'
+          register={register}
+        />
+        <FormElement 
+          title='Email' 
+          name='email' 
+          type='text' 
+          error={errors.email} 
+          errorMsg='Must use a valid email address.'
+          register={register}
+        />
+        <FormElement 
+          title='Password' 
+          name='password' 
+          type='password' 
+          error={errors.password} 
+          errorMsg='Password must be between 4 and 16 characters.'
+          register={register}
+        />
+        <FormElement 
+          title='Confirm password' 
+          name='confirmPassword' 
+          type='password' 
+          error={errors.confirmPassword} 
+          errorMsg='Passwords must match.'
+          register={register}
+        />
         <button type='submit' id='btnSubmit'>Submit</button>
       </form>
     </div>

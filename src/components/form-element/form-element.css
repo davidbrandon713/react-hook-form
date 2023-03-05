@@ -1,0 +1,67 @@
+input {
+  height: 30px;
+  width: 358px;
+  padding: 6px 9px;
+  margin: 34px 0px 4px;
+  color: rgb(172, 215, 240);
+  background-color: rgb(40, 50, 80);
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 16px;
+  z-index: 800;
+}
+
+input:-webkit-autofill {
+  background-color: rgb(130, 200, 255);
+  -webkit-text-fill-color: black;
+}
+
+h4 {
+  position: relative;
+  top: -38px;
+  left: 10px;
+  height: 0px;
+  width: fit-content;
+  margin: 0px 0px;
+  font-size: 16px;
+  font-weight: 700;
+  z-index: 900;
+}
+
+input:-webkit-autofill + h4,
+input:active + h4,
+input:focus + h4,
+input:not(:placeholder-shown) + h4 {
+  transform: translate(+0px, -46px);
+}
+
+p {
+  position: relative;
+  height: 0px;
+  width: fit-content;
+  top: +18px;
+  left: 10px;
+  margin: 4px 0px;
+  color: red;
+  font-size: 12px;
+  z-index: 100;
+}
+
+button {
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 36px;
+  width: 90px;
+  margin-top: 6px;
+  font-size: 24px;
+  color: rgb(20, 40, 60);
+  background-color: rgb(175, 215, 240);
+  border: 1px solid black;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:active {
+  cursor: grab;
+}

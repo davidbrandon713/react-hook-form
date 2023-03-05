@@ -1,0 +1,36 @@
+.form-container {
+  position: relative;
+  margin: auto;
+  padding: 10px;
+  width: 400px;
+  height: 480px;
+  top: 50px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: rgb(194, 228, 238);
+  border: 1px solid black;
+  border-radius: 7px;
+  box-shadow: 2px 5px 10px black;
+  background-image: linear-gradient(to right, rgb(35, 60, 100), rgb(76, 125, 171));
+  z-index: 0;
+}
+
+.title-container {
+  height: 40px;
+  width: 100%;
+}
+
+.form-title {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.form-component {
+  position: relative;
+  margin: 10px 0px;
+  height: 400px;
+  width: 100%;
+}
