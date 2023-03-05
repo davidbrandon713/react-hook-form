@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-hook-form/static/css/main.96811e4d.css",
-    "main.js": "/react-hook-form/static/js/main.1cda9514.js",
+    "main.css": "/react-hook-form/static/css/main.fbe8dd90.css",
+    "main.js": "/react-hook-form/static/js/main.a2d0b540.js",
     "static/js/787.c4b18fdd.chunk.js": "/react-hook-form/static/js/787.c4b18fdd.chunk.js",
     "index.html": "/react-hook-form/index.html",
-    "main.96811e4d.css.map": "/react-hook-form/static/css/main.96811e4d.css.map",
-    "main.1cda9514.js.map": "/react-hook-form/static/js/main.1cda9514.js.map",
+    "main.fbe8dd90.css.map": "/react-hook-form/static/css/main.fbe8dd90.css.map",
+    "main.a2d0b540.js.map": "/react-hook-form/static/js/main.a2d0b540.js.map",
     "787.c4b18fdd.chunk.js.map": "/react-hook-form/static/js/787.c4b18fdd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96811e4d.css",
-    "static/js/main.1cda9514.js"
+    "static/css/main.fbe8dd90.css",
+    "static/js/main.a2d0b540.js"
   ]
 }
