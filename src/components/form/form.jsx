@@ -35,7 +35,7 @@ const Form = () => {
       <form className='form-component' onSubmit={handleSubmit(onSubmit)}>
 
         <FormElement 
-          title='Full name' 
+          title='Name' 
           name='name' 
           type='text' 
           error={errors.name} 
