@@ -37,9 +37,9 @@ input:not(:placeholder-shown) + h4 {
 
 p {
   position: relative;
-  height: 0px;
+  height: 1px;
   width: fit-content;
-  top: +18px;
+  top: +19px;
   left: 10px;
   margin: 4px 0px;
   color: red;

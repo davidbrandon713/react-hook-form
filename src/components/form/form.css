@@ -1,9 +1,9 @@
 .form-container {
   position: relative;
   margin: auto;
-  padding: 10px;
-  width: 400px;
-  height: 480px;
+  padding: 12px;
+  width: fit-content;
+  height: fit-content;
   top: 50px;
   box-sizing: border-box;
   align-items: center;
@@ -30,7 +30,7 @@
 
 .form-component {
   position: relative;
-  margin: 10px 0px;
+  margin: 10px 0px 0px;
   height: 400px;
   width: 100%;
 }
