@@ -21,10 +21,10 @@ const Form = () => {
 
   const onSubmit = (data) => {
     console.log(data)
-    document.getElementById('btnSubmit').style.border = '2px solid red'
+    document.getElementById('btnSubmit').style.outline = '1px solid rgb(195, 225, 240)'
     setTimeout(() => {
-      document.getElementById('btnSubmit').style.border = '1px solid black'
-    }, 500)
+      document.getElementById('btnSubmit').style.outline = 'none'
+    }, 200)
   }
 
   return(
