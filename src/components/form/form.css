@@ -12,7 +12,7 @@
   border: 1px solid black;
   border-radius: 7px;
   box-shadow: 2px 5px 10px black;
-  background-image: linear-gradient(to right, rgb(35, 60, 100), rgb(76, 125, 171));
+  background-image: linear-gradient(105deg, rgb(35, 60, 100), rgb(76, 125, 171));
   z-index: 0;
 }
 
